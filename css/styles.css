@@ -1,0 +1,159 @@
+/*---body common---*/
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+/*---header styles---*/
+.ro-mid-nav {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.ro-mid-nav:hover,
+.ro-mid-nav:focus {
+    color: #404BBF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+/*-----.ro-mid-nav .std:active {
+    color: #404BBF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}----*/
+/*---Roboto regular---*/
+.ro-reg-left,
+.ro-reg-left .rrl-item {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    font-style: normal;
+}
+.ro-reg-left .rrl-item:hover,
+.ro-reg-left .rrl-item:focus {
+    color: #404BBF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    font-style: normal;
+}
+.ro-reg-center {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/*---Roboto medium---*/
+.ro-mid-left {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.ro-mid-center {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/*---Roboto bold---*/
+.ro-bo-center {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+/*---Hero font---*/
+.ro-hero {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/*---logo font---*/
+.rw-bo-logo {
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+}
+/*---footer font--*/
+.ftr-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    font-style: normal;
+}
+/*---span colors---*/
+.cloud {
+    color: #F4F4FD;
+}
+.navy-blue {
+    color: #2E2F42;
+}
+/*---background colors---*/
+.ftr-sctnhero {
+    background-color:#2e2f42
+}
+.o-team {
+    background-color: #F4F4FD
+}
+.o-team li {
+    background-color: #FFFFFF;
+}
+/*---others---*/
+.btn {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
