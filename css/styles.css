@@ -1,33 +1,133 @@
 /*---body common---*/
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
 a {
-    text-decoration: none;
-    font-style: normal;
+  text-decoration: none;
+  font-style: normal;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+/*
+.otm-item .otm-img,
+.oprtf-item .oprtf-img {
+  display: block;
+  background-color: #404bbf;
+}
+*/
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.hdr-cntn {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.hdr-lst {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo-stl {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.addr-stl {
+  margin-left: auto;
+}
+
+.addr-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.addr-lnk {
+  display: block;
+}
+
+.section-hr {
+  padding: 188px 0;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.section-ftr {
+  padding: 100px 0;
+}
+
+.h-hided {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*---header styles---*/
 .ro-mid-nav {
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
+  display: block;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .ro-mid-nav:hover,
 .ro-mid-nav:focus {
-    color: #404BBF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 /*-----.ro-mid-nav .std:active {
     color: #404BBF;
@@ -40,120 +140,127 @@ ul {
 /*---Roboto regular---*/
 .ro-reg-left,
 .ro-reg-left .rrl-item {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    font-style: normal;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-style: normal;
 }
 .ro-reg-left .rrl-item:hover,
 .ro-reg-left .rrl-item:focus {
-    color: #404BBF;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    font-style: normal;
+  color: #404bbf;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-style: normal;
 }
 .ro-reg-center {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 /*---Roboto medium---*/
 .ro-mid-left {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: left;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .ro-mid-center {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 /*---Roboto bold---*/
 .ro-bo-center {
-    color: #2e2f42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 /*---Hero font---*/
+/*.hero {
+  border: 5px solid #ffffff;
+}
+  */
 .ro-hero {
-    color: #ffffff;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 496px;
+
+  /*  height: 120px;*/
 }
 /*---logo font---*/
 .rw-bo-logo {
-    color: #4d5ae5;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
 }
 /*---footer font--*/
 .ftr-text {
-    color: #F4F4FD;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    font-style: normal;
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-style: normal;
 }
 /*---span colors---*/
 .cloud {
-    color: #F4F4FD;
+  color: #f4f4fd;
 }
 .navy-blue {
-    color: #2E2F42;
+  color: #2e2f42;
 }
 /*---background colors---*/
 .ftr-sctnhero {
-    background-color:#2e2f42
+  background-color: #2e2f42;
 }
 .o-team {
-    background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 .o-team li {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 /*---others---*/
 .btn {
-    color: #ffffff;
-    background-color: #4D5AE5;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: left;
-    cursor: pointer;
+  display: block;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
 }
 .btn:hover,
 .btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: left;
+  background-color: #404bbf;
 }
