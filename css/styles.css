@@ -86,8 +86,11 @@ ul {
 
 .h-hided {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
+}
+
+.hh-itemh {
+  width: 264px;
 }
 
 img {
