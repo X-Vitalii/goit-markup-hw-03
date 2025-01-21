@@ -28,6 +28,7 @@ ul {
 */
 
 .container {
+  border: 3px solid #4d5ae5;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -91,6 +92,39 @@ ul {
 
 .hh-itemh {
   width: 264px;
+}
+
+.ot {
+  border: 2px solid #4d5ae5;
+}
+
+
+.ot-hdr {
+  /*width: 162px;
+  height: 40px;*/
+  padding-bottom: 24px;
+}
+
+.ot-list {
+  display: flex;
+  /*width: calc((1158 - 3*24px) / 4);
+  align-items: flex-start;*/
+  /*justify-content: space-between;*/
+  gap: 24px;
+}
+
+.ot-nmpstn {
+  margin: 32px 16px;
+  border: 1px solid #4d5ae5
+}
+
+.oth {
+  border: 1px solid #2e2f42;
+  padding-top: 0;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 8px;
+  
 }
 
 img {
