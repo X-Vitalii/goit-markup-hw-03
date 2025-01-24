@@ -82,9 +82,12 @@ ul {
 .h-hided {
   display: flex;
   align-items: baseline;
-  flex-basis: calc((100% - 24px * 3) / 4);
   gap: 24px;
-}                                          
+} 
+
+.hh-item {
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
 
 .hh-itemh,
 .oth {
