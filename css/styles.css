@@ -48,6 +48,11 @@ ul {
   gap: 40px;
 }
 
+.hdr-nv itm {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .addr-stl {
   margin-left: auto;
 }
